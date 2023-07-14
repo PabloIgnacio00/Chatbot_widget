@@ -1,5 +1,5 @@
 import React, ReactDOM from 'react'
-import Chatbot from './Chatbot'
+import Chatbot from 'https://github.com/PabloIgnacio00/Chatbot_widget/blob/main/chatbot.js'
 
 const mountNode = document.getElementById('widget-mount-point');
 
