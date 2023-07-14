@@ -7,6 +7,6 @@ const mountNode = document.getElementById('widget-mount-point');
 const urlParams = new URLSearchParams(window.location.search);
 const token = urlParams.get('token');
 
-console.log({token})
+console.log(token)
 // Render your React component into the DOM element, passing the token as a prop
 ReactDOM.render(<Chatbot token={token} />, mountNode);
